@@ -1,0 +1,21 @@
+@import './../../common/variables.scss';
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  background-color: $primary;
+  a {
+    color: $white;
+  }
+  &__logo img {
+    display: block;
+    width: 150px;
+    margin-top: -40px;
+  }
+  &__nav a {
+    margin: 0 10px;
+  }
+}
